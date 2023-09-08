@@ -16,6 +16,15 @@
   color: white;
 }
 
+.nossa-equipe{
+
+  & .equipe{
+    background-color: #7898C1;
+    width: 100%;
+  }
+  
+}
+
 .header{
   display: flex;
   width: 50%;
@@ -50,7 +59,7 @@
   flex-wrap: wrap;
   margin-top: 30px;
 
-  & .h2{
+  & h2{
       min-width: 100%;
       margin-bottom: 20px;
       color: white;

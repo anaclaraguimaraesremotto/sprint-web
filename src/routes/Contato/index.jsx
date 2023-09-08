@@ -3,7 +3,7 @@ export default function Contato(){
 
     return(
         <main className="contato">
-            <section className="h2">
+            <section>
                 <h2>Entre em Contato</h2>
             </section>
             <section className="form">
