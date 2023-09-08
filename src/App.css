@@ -110,3 +110,11 @@ button{
   cursor: pointer;
   font-weight: bold;
 }
+
+.Error{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+}
