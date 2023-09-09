@@ -1,9 +1,21 @@
+import './home.css'
 
 export default function Home(){
 
     return(
         <main>
-            <h1>Home</h1>
+            <div className="home">
+
+                <h2>Olá, Bem-vindo e obrigado por escolher a Porto seguro!!!</h2>
+        
+                <p>Prezamos totalmente pela sua experiência e satisfação, e pensando nisso criamos nosso sistema de vistoria totalmente on-line, para que você, do conforto
+                da sua casa possa contratar o seguro da sua bike da forma mais prática, rápida e segura 
+                possível, tudo pronto para começarmos?</p>
+                <div className='botao-inicio'>
+                <button type="submit">Iniciar</button>
+                </div>
+            </div>
+    
         </main>
     )
 }

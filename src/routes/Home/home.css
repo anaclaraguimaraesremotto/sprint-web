@@ -1,0 +1,35 @@
+.home{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+
+    & h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: #a8bcd7;
+        margin-bottom: 20px;
+        margin-top: 10%;
+        font-size: 2em;
+    }
+    
+    & p{
+        text-align: center;
+        width: 50%;
+        color: white;
+        font-size: 1em;
+    }
+
+    & .botao-inicio{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}

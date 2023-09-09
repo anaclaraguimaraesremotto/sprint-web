@@ -1,0 +1,107 @@
+.nossa-equipe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    & h2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        
+    }
+    
+    & .equipe{
+        width: 60%;
+        background-color: #7898C1;
+        color: #092147;
+        font-weight: bold;
+        border-radius: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-wrap: wrap;
+           
+            & img{
+                border-radius: 11px;
+            }
+        
+            & .box1{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-bottom: 20px;
+        
+                & p{
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                    margin-top: 5px;
+                }
+        
+                & #ana{
+                    display: flex;
+                    width: 33%;
+                    justify-content: center;
+                    padding-left: 30px;
+                    flex-wrap: wrap;
+                }
+                
+                & #antonio{
+                    display: flex;
+                    width: 33%;
+                    justify-content: center;
+                    padding-left: 30px;
+                    flex-wrap: wrap;
+                }
+                
+                & #giovanni{
+                    display: flex;
+                    width: 33%;
+                    justify-content: center;
+                    padding-left: 30px;
+                    flex-wrap: wrap;
+                }
+                
+            }
+        
+            & .box2{
+                display: flex;
+        
+                & p{
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                    margin-top: 5px;
+                }
+    
+                & #leonardo{
+                    display: flex;
+                    width: 50%;
+                    justify-content: center;
+                    padding-left: 30px;
+                    flex-wrap: wrap;
+                }
+                
+                & #gabriel{
+                    display: flex;
+                    width: 50%;
+                    justify-content: center;
+                    padding-left: 30px;
+                    flex-wrap: wrap;
+                }
+            }
+        
+    }
+
+}
+
+
+
