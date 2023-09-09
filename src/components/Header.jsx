@@ -16,6 +16,8 @@ export default function Header(){
                     <Link to='/contato'>Entre em Contato</Link>
                     <span> | </span>
                     <Link to='/equipe'>Nossa Equipe</Link>
+                    <span> | </span>
+                    <Link to='/vistoria'>Vistoria</Link>
                 </nav>
             </div>
         </>
