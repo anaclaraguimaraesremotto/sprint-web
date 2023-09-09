@@ -18,6 +18,8 @@ export default function Header(){
                     <Link to='/equipe'>Nossa Equipe</Link>
                     <span> | </span>
                     <Link to='/vistoria'>Vistoria</Link>
+                    <span> | </span>
+                    <Link to='/login'>Login</Link>
                 </nav>
             </div>
         </>
