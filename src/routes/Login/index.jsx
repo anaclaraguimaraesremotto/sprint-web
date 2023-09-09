@@ -3,10 +3,9 @@ import './login.css'
 export default function Login(){
 
     return(
-        <main className="login">
-            <section>
+        <main>
+            <section className="login">
                 <h2>Acessar conta</h2>
-            </section>
             <section className="form">
                 <form action="/logar" name="login" method="post">
                         <div>
@@ -15,10 +14,11 @@ export default function Login(){
                         </div>
                         <div>
                             <label for="senha">Senha:</label>
-                            <input type="text" name="senha" required/>
+                            <input type="password" name="senha" required/>
                         </div>
                         <button type="submit">Entrar</button>
                     </form>
+            </section>
             </section>
     </main>
     )

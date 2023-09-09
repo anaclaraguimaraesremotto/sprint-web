@@ -1,0 +1,54 @@
+
+.minhas-bikes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+
+    & .btn-adc{
+        margin-left: 85%;
+    }
+
+    & h2{
+        color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    & .box-bike{
+        display: flex;
+        align-items: center;
+        width: 50%;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+    
+        & img{
+            padding: 10px;
+            margin-right: 20px;
+        }
+
+        & .dados{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            
+            & p{
+                padding: 5px;
+                
+            }
+        
+        & .btn-altera{
+            margin-left: 85%;
+        }
+
+        }
+    }
+}

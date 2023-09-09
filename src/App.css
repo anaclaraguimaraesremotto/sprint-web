@@ -3,8 +3,17 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
-  background-color: #092147;
+  /* background-color: #092147; */
+    
   
+}
+
+.body{
+  background-image: linear-gradient(rgba(13,17,45,1), rgba(16,65,126,1));
+}
+
+main{
+  min-height: calc(100vh - 100px);
 }
 
 .container {

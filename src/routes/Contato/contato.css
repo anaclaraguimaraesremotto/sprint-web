@@ -3,7 +3,7 @@
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 50px;
+    
   
     & h2{
         min-width: 100%;

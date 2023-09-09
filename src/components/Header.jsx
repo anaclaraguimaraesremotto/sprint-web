@@ -22,6 +22,8 @@ export default function Header(){
                     <Link to='/login'>Login</Link>
                     <span> | </span>
                     <Link to='/cadastro-bike'>Cadastro Bike</Link>
+                    <span> | </span>
+                    <Link to='/minhas-bikes'>Minhas Bikes</Link>
                 </nav>
             </div>
         </>

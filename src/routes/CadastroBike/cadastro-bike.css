@@ -3,7 +3,6 @@
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 50px;
   
     & h2{
         min-width: 100%;
@@ -18,10 +17,9 @@
     & label{
         display: block;
         color: white;
-        
     }
     
-    & input{
+    & .input, select, option{
         border-radius: 7px;
         padding: 12px 20px;
         margin: 8px 0;
@@ -29,6 +27,22 @@
         background-color: white;
         box-sizing: border-box;        
     }
+
+    & .identacao{
+        display: flex;
+        margin-left: 30%;
+        justify-content: left;
+        padding-left: 10px;
+
+        & label{
+            padding-right: 15px;
+        }
+
+        & input[type=radio]{
+            margin-right: 5px;
+        }
+    }
+        
     & textarea{
         width: 40%;
         height: 150px;

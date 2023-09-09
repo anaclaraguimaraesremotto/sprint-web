@@ -3,57 +3,55 @@ import './cadastro-bike.css'
 export default function CadastroBike(){
 
     return(
-        <main className="cadastroBike">
-            <section>
-                <h2>Cadastre sua bike</h2>
-            </section>
-            <section className="formBike">
-                    <form action="/cadastrar-bike" method="post">
-                        <div class="form-group">
-                            <label for="marca">Marca</label>
-                            <input type="text" id="marca" name="marca"
-                                placeholder="Digite a marca da bike" required/>
-                        </div>
-                        <div class="form-group">
-                            <label for="modelo">Modelo</label>
-                            <input type="text" id="modelo" name="modelo"
-                                placeholder="Digite o modelo da bike" required/>
-                        </div>
-                        <div class="form-group">
-                            <label for="modelo">Modelo</label>
-                            <input type="text" id="modelo" name="modelo"
-                                placeholder="Digite o modelo da bike" required/>
-                        </div>
-                        <div class="form-group">
-                        <label for="valor">Valor</label>
-                        <select name="valor">
-                            <option value="1000-3000">De 1000 até 3000 reais</option>
-                            <option value="3000-7000">De 3000 até 7000 reais</option>
-                            <option value="7000-12000">De 7000 até 12000 reais</option>
-                            <option value="12000-30000">De 12000 até 30000 reais</option>
-                            <option value="+30000">Mais de 30000 reais</option>
-                        </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="numero_serie">Número de série</label>
-                            <input type="number"name="numero_serie" placeholder="Digite o número de série" required/>
-                        </div>
-                        <div class="form-group">
-                            <label for="modificacoes">Sua bike possui modificações?</label>
+        <main >
+            <section className="cadastroBike">
+                <h2 >Cadastre sua bike</h2>
+                <section className="formBike">
+                        <form action="/cadastrar-bike" method="post">
                             <div>
-                            <input type="checkbox" id="modificacoes" name="modificacoes" required/>
-                            <label class="checkbox" for="modificacoes">Sim</label>
-                            <input type="checkbox" id="cb-sim" name="modificacoes" required/>
-                            <label class="checkbox" 
-                            for="modificacoes">Não</label>
+                                <label for="marca" className='identacao'>Marca:</label>
+                                <input type="text" className='input' id="marca" name="marca"
+                                    placeholder="Digite a marca da bike" required/>
                             </div>
-                            <textarea id="cb-nao" class="form-control" name="modificacoes" cols="30" rows="10"placeholder="Se sim, digite aqui" required></textarea>
-                        </div>
-                    
+                            <div>
+                                <label for="modelo" className='identacao'>Modelo:</label>
+                                <input type="text" className='input' id="modelo" name="modelo"
+                                    placeholder="Digite o modelo da bike" required/>
+                            </div>
+                            
+                            <div>
+                            <label for="valor" className='identacao'>Valor:</label>
+                            <select name="valor">
+                            {/* <!-- Desabilitado e selecionado --> */}
+                                <option value="" disabled selected>Selecionar</option>
+                                <option value="1000-3000">De 1.000 até 3.000 reais</option>
+                                <option value="3000-7000">De 3.000 até 7.000 reais</option>
+                                <option value="7000-12000">De 7.000 até 12.000 reais</option>
+                                <option value="12000-30000">De 12.000 até 30.000 reais</option>
+                                <option value="+30000">Mais de 30.000 reais</option>
+                            </select>
+                            </div>
+                            <div>
+                                <label  for="numero_serie" className='identacao'>Número de série:</label>
+                                <input type="number" className='input' name="numero_serie" placeholder="Digite o número de série" required/>
+                            </div>
+                            <div >
+                                <div className='identacao'>
+                                    <label for="modificacoes">Sua bike possui modificações?</label>
+                                    <input type="radio" id="rd-sim" name="modificacoes" />
+                                    <label for="modificacoes">Sim</label>
+                                    <input type="radio" id="rd-nao" name="modificacoes" />
+                                    <label 
+                                    for="modificacoes">Não</label>
+                                </div>
+                                <textarea id="textoMod" class="form-control" name="modificacoes" cols="30" rows="10"placeholder="Se sim, digite aqui" required></textarea>
+                            </div>
+                        
 
-                        <button type="submit" >Enviar</button>
-                    </form>
+                            <button type="submit" >Enviar</button>
+                        </form>
                 </section>
+            </section>
         </main>
     )
 }
