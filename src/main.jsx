@@ -9,6 +9,7 @@ import Contato from './routes/Contato/index.jsx'
 import NossaEquipe from './routes/NossaEquipe/index.jsx'
 import Vistoria from './routes/Vistoria/index.jsx'
 import Login from './routes/Login/index.jsx'
+import CadastroBike from './routes/CadastroBike/index.jsx'
 import Error from './routes/Error/index.jsx'
 
 const router = createBrowserRouter([
@@ -36,6 +37,11 @@ const router = createBrowserRouter([
       {
         path:"/login",
         element: <Login/>
+      }
+      ,
+      {
+        path:"/cadastro-bike",
+        element: <CadastroBike/>
       }
     ]
   }

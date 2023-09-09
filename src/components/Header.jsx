@@ -20,6 +20,8 @@ export default function Header(){
                     <Link to='/vistoria'>Vistoria</Link>
                     <span> | </span>
                     <Link to='/login'>Login</Link>
+                    <span> | </span>
+                    <Link to='/cadastro-bike'>Cadastro Bike</Link>
                 </nav>
             </div>
         </>
