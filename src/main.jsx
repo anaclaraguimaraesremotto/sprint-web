@@ -1,17 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import './index.css'
-
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home from './routes/Home/index.jsx'
+import CadastroBike from './routes/CadastroBike/index.jsx'
 import Contato from './routes/Contato/index.jsx'
+import Error from './routes/Error/index.jsx'
+import Home from './routes/Home/index.jsx'
+import Login from './routes/Login/index.jsx'
+import MinhasBikes from './routes/MinhasBikes/index.jsx'
 import NossaEquipe from './routes/NossaEquipe/index.jsx'
 import Vistoria from './routes/Vistoria/index.jsx'
-import Login from './routes/Login/index.jsx'
-import CadastroBike from './routes/CadastroBike/index.jsx'
-import MinhasBikes from './routes/MinhasBikes/index.jsx'
-import Error from './routes/Error/index.jsx'
 
 const router = createBrowserRouter([
   {
