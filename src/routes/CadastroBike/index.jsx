@@ -1,6 +1,3 @@
-import React, { useState } from 'react';
-import { Link, useHistory } from 'react-router-dom';
-import { bikeInfo } from '../../components/bikeInfo';
 import './cadastro-bike.css';
 
 export default function CadastroBike() {
@@ -10,7 +7,7 @@ export default function CadastroBike() {
       <section className="cadastroBike">
         <h2>Cadastre sua bike</h2>
         <section className="formBike">
-          <form method="post" onSubmit={handleSubmit}>
+          <form method="post">
             <div>
               <label htmlFor="marca" className="identacao">
                 Marca:
@@ -61,7 +58,6 @@ export default function CadastroBike() {
                 id="rd-sim"
                 name="modificacoes"
                 value="sim"
-                onChange={handleModificacoesChange}
               />
               <label htmlFor="modificacoes">Sim</label>
               <input
@@ -69,7 +65,6 @@ export default function CadastroBike() {
                 id="rd-nao"
                 name="modificacoes"
                 value="nao"
-                onChange={handleModificacoesChange}
               />
               <label htmlFor="modificacoes">Não</label>
             </div>
