@@ -2,6 +2,7 @@
 import './App.css'
 import { Outlet } from 'react-router-dom'
 import Header from './components/Header'
+import MinhasBikes from  './routes/MinhasBikes/index'
 
 function App() {
 

@@ -10,6 +10,11 @@
 
     & .btn-adc{
         margin-left: 85%;
+        
+        & a {
+            text-decoration: none;
+            color: white;
+        }
     }
 
     & h2{
@@ -48,7 +53,7 @@
         & .btn-altera{
             margin-left: 85%;
         }
-
         }
     }
 }
+
