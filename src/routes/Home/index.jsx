@@ -12,7 +12,8 @@ export default function Home(){
                 da sua casa possa contratar o seguro da sua bike da forma mais prática, rápida e segura 
                 possível, tudo pronto para começarmos?</p>
                 <div className='botao-inicio'>
-                <button type="submit">Iniciar</button>
+                <button type="submit">
+                    <Link to="/login">Iniciar</Link></button>
                 </div>
             </div>
     

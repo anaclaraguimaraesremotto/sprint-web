@@ -1,4 +1,5 @@
-import './minhas-bikes.css'
+import './minhas-bikes.css';
+import './minhas_bike.js';
 import BikeFake from '../../image/bicicleta-ilustrativa.jpg'
 import { Link } from "react-router-dom"
 

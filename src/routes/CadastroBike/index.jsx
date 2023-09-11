@@ -1,4 +1,5 @@
 import './cadastro-bike.css';
+import './cadastrobike.js'
 import { Link } from "react-router-dom"
 
 export default function CadastroBike() {
@@ -44,7 +45,7 @@ export default function CadastroBike() {
                                     <input type="radio" id="rd-nao" name="modificacoes" />
                                     <label 
                                     for="modificacoes">Não</label>
-                                </div>
+                                </div>''
                                 <textarea id="textoMod" class="form-control" name="modificacoes" cols="30" rows="10"placeholder="Se sim, digite aqui" required></textarea>
                             </div>
 
@@ -56,5 +57,6 @@ export default function CadastroBike() {
         </section>
       </section>
     </main>
+    
   )
 }
