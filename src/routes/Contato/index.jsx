@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import './contato.css'
+Link
 
 export default function Contato(){
 
@@ -9,18 +11,18 @@ export default function Contato(){
                 <section className="form">
                     <form action="/contato/sucesso">
                     <div>
-                        <label for="l-contato">E-mail de contato:</label>
+                        <label for="l-contato" className='identacao'>E-mail de contato:</label>
                         <input type="text" name="contato" required autofocus/>
                     </div>
                     <div>
-                        <label for="l-assunto">Assunto:</label>
+                        <label for="l-assunto" className='identacao'>Assunto:</label>
                         <input type="text" name="assunto" required />
                     </div>
                     <div>
-                        <label for="l-comentario">Deixe seu comentário:</label>
+                        <label for="l-comentario" className='identacao'>Deixe seu comentário:</label>
                         <textarea name="comentario" cols="30" rows="10" required></textarea>
                     </div>
-                    <button>Enviar</button>
+                    <button><Link to="/minhas-bikes">Enviar</Link></button>
                     </form>
                 </section>
             </section>

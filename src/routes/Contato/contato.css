@@ -39,4 +39,15 @@
         margin-top: 10px;
         resize: none;
     }
+
+    & .identacao{
+        display: flex;
+        margin-left: 30%;
+        justify-content: left;
+        padding-left: 10px;
+
+        & label{
+            padding-right: 15px;
+        }
+    }
 }
