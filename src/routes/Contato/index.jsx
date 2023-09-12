@@ -7,14 +7,14 @@ export default function Contato(){
             <section className="contato">
                 <h2>Entre em Contato</h2>
                 <section className="form">
-                    <form action="/contato/sucesso" method='post'>
+                    <form action="/contato/sucesso">
                     <div>
                         <label for="l-contato">E-mail de contato:</label>
                         <input type="text" name="contato" required autofocus/>
                     </div>
                     <div>
                         <label for="l-assunto">Assunto:</label>
-                        <input type="text" name="assunto" required/>
+                        <input type="text" name="assunto" required />
                     </div>
                     <div>
                         <label for="l-comentario">Deixe seu comentário:</label>

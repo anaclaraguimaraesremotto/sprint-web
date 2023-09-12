@@ -1,5 +1,4 @@
 import './cadastro-bike.css';
-import './cadastrobike.js'
 import { Link } from "react-router-dom"
 
 export default function CadastroBike() {
@@ -9,7 +8,7 @@ export default function CadastroBike() {
     <section className="cadastroBike">
         <h2 >Cadastre sua bike</h2>
         <section className="formBike">
-                <form action="/cadastrar-bike" method="post">
+                <form action="/cadastrar-bike" >
                     <div>
                         <label for="marca" className='identacao'>Marca:</label>
                         <input type="text" className='input' id="marca" name="marca"
@@ -24,7 +23,6 @@ export default function CadastroBike() {
             <div>
             <label for="valor" className='identacao'>Valor:</label>
                             <select name="valor">
-                            {/* <!-- Desabilitado e selecionado --> */}
                                 <option value="" disabled selected>Selecionar</option>
                                 <option value="1000-3000">De 1.000 até 3.000 reais</option>
                                 <option value="3000-7000">De 3.000 até 7.000 reais</option>
@@ -48,10 +46,8 @@ export default function CadastroBike() {
                                 </div>''
                                 <textarea id="textoMod" class="form-control" name="modificacoes" cols="30" rows="10"placeholder="Se sim, digite aqui" required></textarea>
                             </div>
-
-            
             <button type="submit">
-              <Link to="/minhas-bikes">Enviar</Link>
+              <Link to="/vistoria">Enviar</Link>
             </button>
           </form>
         </section>

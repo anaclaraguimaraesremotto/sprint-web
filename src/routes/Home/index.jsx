@@ -1,9 +1,12 @@
 import './home.css'
+import { Link } from "react-router-dom"
 
 export default function Home(){
 
     return(
+
         <main>
+
             <div className="home">
 
                 <h2>Olá, Bem-vindo e obrigado por escolher a Porto seguro!!!</h2>

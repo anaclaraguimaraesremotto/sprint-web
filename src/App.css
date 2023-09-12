@@ -64,6 +64,10 @@ button{
   cursor: pointer;
   font-weight: bold;
 
+  & a {
+    text-decoration: none;
+    color: white;
+}
 }
 
 

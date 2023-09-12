@@ -1,11 +1,12 @@
 import './vistoria.css'
+import { Link } from 'react-router-dom'
 
 export default function Vistoria(){
 
     return(
         <main >
             <section className='vistoria'>
-                <h1>Vistoria</h1>
+                <h2>Vistoria</h2>
                     <div className="box">
                         <p>Clique aqui para tirar uma foto do chassi</p>
                         <button>Alterar</button>
@@ -26,6 +27,9 @@ export default function Vistoria(){
                         <button>Alterar</button>
                         <button className="btnEnviar">Enviar</button>
                     </div>
+                    <button type="button" className="btn-apaga">
+                    <Link to="/minhas-bikes">Finalizar</Link>
+                    </button>
             </section>
         </main>
     )
